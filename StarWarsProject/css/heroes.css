@@ -1,0 +1,11 @@
+.heroesHeader {
+    color: #ffd700;
+    font-weight: 400;
+    font-size: 18pt;
+}
+
+.heroesText {
+    color: antiquewhite;
+    padding-left: 15pt;
+    padding-right: 15pt;
+}

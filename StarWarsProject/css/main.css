@@ -1,0 +1,35 @@
+
+body {
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30pt;
+}
+
+body header nav {
+    text-align:center;
+    margin-top: 15pt;
+}
+
+body header nav a {
+    color: antiquewhite;
+    font-size: 20pt;
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #ffd700;
+    font-weight: 400;
+}
+
+p {
+    color: antiquewhite;
+}

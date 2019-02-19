@@ -1,0 +1,17 @@
+div#imagesFromMovie img {
+    margin-right: 15pt;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.mainImage {
+    width: 350px;
+    height: 500px;
+}
+
+.linkToYT {
+    color: antiquewhite;
+    text-decoration-color: #ffd700;
+    font-size: 25pt;
+}

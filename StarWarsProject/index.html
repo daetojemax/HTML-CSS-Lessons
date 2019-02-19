@@ -3,46 +3,34 @@
     <head>
         <title>Звёздные войны. Эпизоды.</title>
         <meta charset="utf-8">
-        <style>
-            body {
-                background-color: #e2e2e2
-            }
-            .mainImage {
-                width: 350px;
-                height: 500px;
-            }
-            .shotImage {
-                width: 400px;
-                height: 250px;
-                border-radius: 5%;
-            }
-        </style>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
         <header>
-             <h1>Звёздные войны. Эпизоды.</h1>
+             <img src="images/logo.png" alt="Star Wars logo" class="logo">
              <nav>
                     <a href="index.html">Главная</a>
-                    <a href="episodes.html">Эпизоды</a>
-                    <a href="heroes.html">Герои</a>
-                    <a href="map.html">Карта</a>
-                    <a href="history.html">Истории</a>
+                    <a href="pages/episodes.html">Эпизоды</a>
+                    <a href="pages/heroes.html">Герои</a>
+                    <a href="pages/map.html">Карта</a>
+                    <a href="pages/history.html">Истории</a>
             </nav>
         </header>
         <main>
             <h1>Эпизод VII</h1>
-            <img class="mainImage" src="Source/episode7_poster.jpg" alt="">
+            <img class="mainImage" src="images/episode7_poster.jpg" alt="">
             <p>
-                <b>Описание:</b>Через тридцать лет после гибели Дарта Вейдера и Императора галактика по-прежнему в опасности.<br>
+                <b>Описание: </b>Через тридцать лет после гибели Дарта Вейдера и Императора галактика по-прежнему в опасности.<br>
                 Государственное образование Первый Орден во главе с таинственным верховным лидером Сноуком и его правой рукой Кайло Реном идёт по стопам Империи, пытаясь захватить всю власть.<br>
             </p>
-            <p>
-                <a href="https://www.youtube.com/watch?v=k5V0OJTwwq8" target="_blank">Смотреть</a>
-            </p>
+            <a class="linkToYT" href="https://www.youtube.com/watch?v=k5V0OJTwwq8" target="_blank">Смотреть</a>
             <h2>Кадры из фильма</h2>
-            <img class="shotImage" src="Source/episode7_1.jpg" alt="">
-            <img class="shotImage" src="Source/episode7_2.jpg" alt="">
-            <img class="shotImage" src="Source/episode7_3.jpg" alt="">
+            <div id="imagesFromMovie">
+                <img class="shotImage" src="images/episode7_1.jpg" alt="">
+                <img class="shotImage" src="images/episode7_2.jpg" alt="">
+                <img class="shotImage" src="images/episode7_3.jpg" alt="">
+            </div>
         </main>
         <footer>
                 <hr>

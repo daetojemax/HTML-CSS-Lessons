@@ -1,0 +1,14 @@
+div#episodes a {
+    color: antiquewhite;
+    text-decoration-color: #ffd700;
+    font-size: 25pt;
+}
+
+div#episodes img {
+    width: 20%;
+    height: 20%;
+}
+
+div#episodes div {
+    margin-bottom: 30pt;
+}

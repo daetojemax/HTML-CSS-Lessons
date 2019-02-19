@@ -9,3 +9,14 @@
     padding-left: 15pt;
     padding-right: 15pt;
 }
+
+ul {
+    list-style-image: url(../images/marker.png)
+}
+
+ul li a {
+    display:inline-block;
+    color: antiquewhite;
+    text-decoration-color: #ffd700;
+    font-size: 20pt;
+}

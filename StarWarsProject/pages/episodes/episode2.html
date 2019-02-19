@@ -3,56 +3,49 @@
     <head>
         <title>Эпизод 2. Атака клонов.</title>
         <meta charset="utf-8">
-        <style>
-            body {
-                background-color: #e2e2e2
-            }
-            .posterImage {
-                width: 350px;
-                height: 500px;
-            }
-        </style>
+        <link rel="stylesheet" href="../../css/main.css">
+        <link rel="stylesheet" href="../../css/episode.css">
     </head>
     <body>
         <header>
-             <h1>Звёздные войны. Эпизоды.</h1>
-             <nav>
-                <a href="index.html">Главная</a>
-                <a href="episodes.html">Эпизоды</a>
-                <a href="heroes.html">Герои</a>
-                <a href="map.html">Карта</a>
-                <a href="history.html">Истории</a>
-             </nav>
+            <a href="/index.html"><img src="../../images/logo.png" alt="Star Wars logo" class="logo"></a>
+            <nav>
+                <a href="../../index.html">Главная</a>
+                <a href="../episodes.html">Эпизоды</a>
+                <a href="../pages/heroes.html">Герои</a>
+                <a href="../pages/map.html">Карта</a>
+                <a href="../pages/history.html">Истории</a>
+            </nav>
         </header>
         <main>
             <h1><a href="https://www.kinopoisk.ru/film/zvyozdnye-voyny-epizod-2-ataka-klonov-2002-844/" target="_blank">Эпизод 2. Атака клонов.</a></h1>
-            <img class="posterImage" src="Source/episode2_poster.jpg" alt="Эпизод 2. Атака клонов" title="Эпизод 2. Атака клонов">
+            <img class="posterImage" src="../../images/episode2_poster.jpg" alt="Эпизод 2. Атака клонов" title="Эпизод 2. Атака клонов">
             <p>
                 <b>Описание:</b> Действие разворачивается через 10 лет после событий, описанных в первом эпизоде знаменитой саги. <br> 
                 Республика все глубже погружается в пучину противоречий и хаоса. <br>
                 Движение сепаратистов, представленное сотнями планет и могущественным альянсом корпораций, грозит стать новой угрозой для Галактики, с которой не смогут справиться даже джедаи.
             </p>
-            <form>
+            <form id="formFeedback">
                 <p><b>Форма для обратной связи</b></p>
-                <p>
+                 <div>
                     <label for="nameInput">Имя</label>
-                    <input type="text" name="nameInput" placeholder="Введите имя">
-                </p>
-                <p>
+                    <input type="text" name="nameInput" id="nameInput" placeholder="Введите имя">
+                </div>
+                <div>
                     <label for="feedbackInput">Отзыв</label>
-                    <textarea rows="10" cols="45" name="feedbackInput" placeholder="Напишите нам ваше мнение"></textarea>
-                </p>
-                <p>
-                <p>Оценочка:</p>
+                    <textarea rows="10" cols="45" name="feedbackInput" id="feedbackInput" placeholder="Напишите нам ваше мнение"></textarea> 
+                </div>
+                <div>
+                    <p>Оценочка:</p>
                     <label><input type="radio" value="1">1</label>
                     <label><input type="radio" value="2">2</label>
                     <label><input type="radio" value="3">3</label>
                     <label><input type="radio" value="4">4</label>
                     <label><input type="radio" value="5">5</label>
-                </p>
-                <p>
-                    <input type="submit">
-                </p>
+                </div>
+                <div>
+                    <input type="submit" id="submitButton">
+                </div>
             </form>
         </main>
         <footer>

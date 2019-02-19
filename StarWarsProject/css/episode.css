@@ -1,0 +1,36 @@
+h1 a {
+    color: #ffd700;
+    font-weight: 400;
+    text-align:center;
+}
+
+.posterImage {
+    width: 20%;
+    height: 20%;
+}
+
+#nameInput, #feedbackInput {
+    display:block;
+    clear: left;
+    color: black;
+    width: 300pt;
+}
+
+#submitButton {
+    width: 100pt;
+    height: 25pt;
+    background-color: antiquewhite;
+    color: black;
+}
+
+#nameInput {
+    height: 15pt;
+}
+
+#formFeedback div {
+    margin-top: 15pt;
+}
+
+#formFeedback label {
+    color: antiquewhite;
+}

@@ -20,3 +20,10 @@ ul li a {
     text-decoration-color: #ffd700;
     font-size: 20pt;
 }
+
+.topArrow {
+    display:inline-block;
+    color: antiquewhite;
+    text-decoration-color: #ffd700;
+    font-size: 20pt;
+}

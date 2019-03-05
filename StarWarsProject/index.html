@@ -5,8 +5,10 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
+        <div id="wrap">
         <header>
              <a href="index.html"><img src="images/logo.png" alt="Star Wars logo" class="logo"></a>
              <nav>
@@ -18,24 +20,35 @@
             </nav>
         </header>
         <main>
-            <h1>Эпизод VII</h1>
-            <img class="mainImage" src="images/episode7_poster.jpg" alt="">
-            <p>
-                <b>Описание: </b>Через тридцать лет после гибели Дарта Вейдера и Императора галактика по-прежнему в опасности.<br>
-                Государственное образование Первый Орден во главе с таинственным верховным лидером Сноуком и его правой рукой Кайло Реном идёт по стопам Империи, пытаясь захватить всю власть.<br>
-            </p>
-            <a class="linkToYT" href="https://www.youtube.com/watch?v=k5V0OJTwwq8" target="_blank">Смотреть</a>
-            <h2>Кадры из фильма</h2>
-            <div id="imagesFromMovie">
-                <img class="shotImage" src="images/episode7_1.jpg" alt="">
-                <img class="shotImage" src="images/episode7_2.jpg" alt="">
-                <img class="shotImage" src="images/episode7_3.jpg" alt="">
+            <div class="container">
+                <h1>Эпизод VII</h1>
+                <div class = "row">
+                    <div class = "col-12"><img class="mainImage" src="images/darth_main.png" alt=""></div>
+                </div>
+                <div class = "row">
+                     <p class = "col">
+                        <b>Описание: </b>Через тридцать лет после гибели Дарта Вейдера и Императора галактика по-прежнему в опасности.<br>
+                        Государственное образование Первый Орден во главе с таинственным верховным лидером Сноуком и его правой рукой Кайло Реном идёт по стопам Империи, пытаясь захватить всю власть.<br>
+                    </p>
+                </div>
+                <div class = "row">
+                    <a class="linkToYT col" href="https://www.youtube.com/watch?v=k5V0OJTwwq8" target="_blank">Смотреть</a>
+                </div> 
+                <h2>Кадры из фильма</h2>
+                <div id="imagesFromMovie" class = "row">
+                    <div class = "col-lg-4 col-md-6 col-sm-12"><img class="shotImage" src="images/poster_main1.png" alt=""></div>
+                    <div class = "col-lg-4 col-md-6 col-sm-12"><img class="shotImage" src="images/poster_main2.png" alt=""></div>
+                    <div class = "col-lg-4 col-md-6 col-sm-12"><img class="shotImage" src="images/poster_main3.png" alt=""></div>
+                </div>
             </div>
         </main>
+        </div>
         <footer>
+            <div class="container">
                 <hr>
                 <p>Copyright &copy; 2018 Star Wars</p>
                 <p>Дезигн by Incubator 3.0</p>
-            </footer>
+            </div>
+        </footer>
     </body>
 </html>

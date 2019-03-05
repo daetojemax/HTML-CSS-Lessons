@@ -1,16 +1,18 @@
-div#imagesFromMovie img {
-    margin-right: 15pt;
-    width: 400px;
-    height: 250px;
-    border-radius: 20px;
+#imagesFromMovie img {
+    margin-top: 30pt;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mainImage {
-    width: 350px;
-    height: 500px;
+    width: 100%;
+    height: auto;
 }
 
-.linkToYT {
+.container .row .linkToYT {
     color: antiquewhite;
     text-decoration-color: #ffd700;
     font-size: 25pt;

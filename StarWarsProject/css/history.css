@@ -1,0 +1,12 @@
+.text {
+    color: antiquewhite;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: none;
+}
+
+@media screen and (max-width: 560px) {
+    .text {
+        display: block;
+    }
+}

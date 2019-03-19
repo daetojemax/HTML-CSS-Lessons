@@ -12,12 +12,17 @@ body {
     margin-top: 30pt;
 }
 
-body header nav {
-    text-align:center;
-    margin-top: 15pt;
+.menu_container {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
-body header nav a {
+.menu_item a {
     color: antiquewhite;
     font-size: 20pt;
     display:inline-block;
@@ -25,10 +30,24 @@ body header nav a {
     text-decoration: none;
 }
 
+a, a:visited {
+  color: antiquewhite;
+}
+
+.menu_item a:hover {
+  background-color: aquamarine;
+}
+
 h1, h2 {
     color: #ffd700;
     font-weight: 400;
     text-align:center;
+}
+
+@media screen and (max-width: 550px) {
+  .menu_container {
+      flex-direction: column;
+  }
 }
 
 p {

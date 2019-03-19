@@ -3,48 +3,42 @@
     <head>
         <title>Звёздные войны. Эпизоды.</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/index.css">     
     </head>
     <body>
         <div id="wrap">
         <header>
-            <div class="container">
-            <div class = "row">
-             <a href="index.html" class = "col-12"><img src="images/logo.png" alt="Star Wars logo" class="logo"></a>
-             </div>
-             <div class = "row">
-             <nav class = "col-12">
-                    <a href="index.html">Главная</a>
-                    <a href="pages/episodes.html">Эпизоды</a>
-                    <a href="pages/heroes.html">Герои</a>
-                    <a href="pages/map.html">Карта</a>
-                    <a href="pages/history.html">Истории</a>
-            </nav>
-            </div>
+            <a href="index.html"><img src="images/logo.png" alt="Star Wars logo" class="logo"></a>
+            <div class="menu_container">
+                <div class ="menu_item"><a href="index.html">Главная</a></div>
+                <div class ="menu_item"><a href="pages/episodes.html">Эпизоды</a></div>
+                <div class ="menu_item"><a href="pages/heroes.html">Герои</a></div>
+                <div class ="menu_item"><a href="pages/map.html">Карта</a></div>
+                <div class ="menu_item"><a href="pages/history.html">Истории</a></div>
             </div>
         </header>
         <main>
-            <div class="container">
+            <div>
                 <h1>Эпизод VII</h1>
-                <div class = "row">
-                    <div class = "col-12"><img class="mainImage" src="images/darth_main.png" alt=""></div>
+                <div>
+                    <div><img class="mainImage" src="images/darth_main.png" alt=""></div>
                 </div>
-                <div class = "row">
-                     <p class = "col">
+                <div>
+                     <p>
                         <b>Описание: </b>Через тридцать лет после гибели Дарта Вейдера и Императора галактика по-прежнему в опасности.<br>
                         Государственное образование Первый Орден во главе с таинственным верховным лидером Сноуком и его правой рукой Кайло Реном идёт по стопам Империи, пытаясь захватить всю власть.<br>
                     </p>
                 </div>
-                <div class = "row">
-                    <a class="linkToYT col" href="https://www.youtube.com/watch?v=k5V0OJTwwq8" target="_blank">Смотреть</a>
+                <div>
+                    <a class="linkToYT" href="https://www.youtube.com/watch?v=k5V0OJTwwq8" target="_blank">Смотреть</a>
                 </div> 
                 <h2>Кадры из фильма</h2>
-                <div id="imagesFromMovie" class = "row">
-                    <div class = "col-lg-4 col-md-6 col-sm-12"><img class="shotImage" src="images/poster_main1.png" alt=""></div>
-                    <div class = "col-lg-4 col-md-6 col-sm-12"><img class="shotImage" src="images/poster_main2.png" alt=""></div>
-                    <div class = "col-lg-4 col-md-6 col-sm-12"><img class="shotImage" src="images/poster_main3.png" alt=""></div>
+                <div class="images_container" id="imagesFromMovie">
+                    <div class ="image_item"><img class="shotImage" src="images/poster_main1.png" alt=""></div>
+                    <div class ="image_item"><img class="shotImage" src="images/poster_main2.png" alt=""></div>
+                    <div class ="image_item"><img class="shotImage" src="images/poster_main3.png" alt=""></div>
                 </div>
             </div>
         </main>

@@ -16,6 +16,10 @@ h1 a {
     width: 300pt;
 }
 
+#nameInput:focus, #feedbackInput:focus {
+    background: lightsalmon;
+}
+
 #submitButton {
     width: 100pt;
     height: 25pt;
